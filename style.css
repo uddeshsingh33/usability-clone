@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-text-color: #183b56;
+  --secondary-text-color: #577592;
+  --accent-color: #2294ed;
+  --accent-color-dark: #1d69a3;
+  --padding-inline-section: 20px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--primary-text-color);
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  color: var(--secondary-text-color);
+  line-height: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul {
+  list-style: none;
+}
+.top-banner {
+  background-image: url(./assets/asset\ 32.png);
+  background-color: #4fb3d4;
+  font-weight: 700;
+  background-size: 300px;
+}
+
+.container {
+  max-width: 1180px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  padding-inline: var(--padding-inline-section);
+}
+
+.banner-text {
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.flex {
+  display: flex;
+}
+.company-logo img {
+  width: 200px;
+}
+.main-nav {
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.nav-links {
+  flex-basis: 730px;
+  color: var(--primary-text-color);
+}
+.nav-links ul {
+  gap: 40px;
+  justify-content: end;
+}
+.nav-link {
+  color: var(--primary-text-color);
+  padding-top: 12px;
+}
+.nav-link:hover {
+  color: var(--accent-color);
+  transition: 0.3s ease-out;
+}
+
+.primary-button {
+  border: 0.5px solid var(--accent-color);
+  background-color: var(--accent-color);
+  border-radius: 6px;
+  font-weight: 700;
+  padding: 12px 24px;
+  color: white !important;
+}
+.secondary-button {
+  border: 0.5px solid var(--secondary-text-color);
+  border-radius: 6px;
+  font-weight: 700;
+  padding: 12px 24px;
+  color: var(--primary-text-color);
+}
+.secondary-button :hover {
+  color: var(--accent-color);
+  border-color: var(--accent-color-dark);
+}
+.header-section {
+  justify-content: center;
+  gap: 50px;
+}
+.header-right img {
+  width: 600px;
+  padding-top: 50px;
+}
+.header-left {
+  width: 2vm;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 120px;
+  align-items: start;
+  justify-content: center;
+}
+.logos {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.logos img {
+  height: 46px;
+}
+.companies-section {
+  padding: 50px var(--padding-inline-section) 0;
+}
+.companies-section h4 {
+  text-align: center;
+}
+.section-header {
+  text-align: center;
+}
+.features-area {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 30%;
+  margin-top: 20px;
+  align-items: center;
+}
+.feature-card img {
+  width: 46px;
+}
+.big-features-section {
+  padding-top: 150px;
+}
+.big-features-container {
+  gap: 30px;
+}
+.feature-img img {
+  width: 100%;
+}
+
+.feature-dis {
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.example-area {
+  justify-content: space-between;
+  margin-block: 30px;
+}
+.example-cart {
+  flex-direction: column;
+  width: 23%;
+  min-height: 300px;
+  background-color: black;
+  color: white;
+  justify-content: end;
+  padding: 25px;
+  transition: 0.2 ease-out;
+  background: linear-gradient(
+    rgb(0, 0, 0, 0.1),
+    rgb(0, 0, 0, 0.8)),
+    url(./assets/asset\ 36.jpeg);
+}
+.example-cart:hover {
+  box-shadow: 0 0 10px #888;
+}
+.example-cart:nth-child(1){
+  background: linear-gradient(
+    rgb(0, 0, 0, 0.1),
+    rgb(0, 0, 0, 0.8)),
+    url(./assets/asset\ 36.jpeg);
+    background-size: cover;
+}
+.example-cart:nth-child(2){
+  background: linear-gradient(
+    rgb(0, 0, 0, 0.1),
+    rgb(0, 0, 0, 0.8)),
+    url(./assets/asset\ 37.jpeg);
+    background-size: cover
+}
+.example-cart:nth-child(3){
+  background: linear-gradient(
+    rgb(0, 0, 0, 0.1),
+    rgb(0, 0, 0, 0.8)),
+    url(./assets/asset\ 38.jpeg);
+    background-size: cover
+}
+.example-cart:nth-child(4){
+  background: linear-gradient(
+    rgb(0, 0, 0, 0.1),
+    rgb(0, 0, 0, 0.8)),
+    url(./assets/asset\ 39.jpeg);
+    background-size: cover
+}
+
+.spacer {
+  min-height: 100vw;
+}
