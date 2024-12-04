@@ -173,6 +173,7 @@ ul {
 .example-area {
   justify-content: space-between;
   margin-block: 30px;
+  padding-bottom: 50px;
 }
 .example-cart {
   flex-direction: column;
@@ -187,6 +188,8 @@ ul {
     rgb(0, 0, 0, 0.1),
     rgb(0, 0, 0, 0.8)),
     url(./assets/asset\ 36.jpeg);
+    border-radius: 30px;
+  
 }
 .example-cart:hover {
   box-shadow: 0 0 10px #888;
@@ -217,9 +220,23 @@ ul {
     rgb(0, 0, 0, 0.1),
     rgb(0, 0, 0, 0.8)),
     url(./assets/asset\ 39.jpeg);
-    background-size: cover
+    background-size: cover;
+}
+.cta-section{
+  background-color: var(--accent-color-dark);
+}
+.cta-container{
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+  align-items: center;
+}
+.cta-container p{
+  color: white;
+  margin-top: 20px;
 }
 
 .spacer {
   min-height: 100vw;
 }
+
